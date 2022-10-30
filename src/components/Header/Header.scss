@@ -1,0 +1,36 @@
+.header {
+	padding-top: 16px;
+	padding-bottom: 19px;
+
+	div {
+		gap: 53px;
+		ul {
+			gap: 30px;
+		}
+	}
+	select {
+		padding: 22px 20px 22px 49px;
+		appearance: none;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		text-align: center;
+		letter-spacing: 0.1px;
+		color: #031032;
+		background: #ffffff;
+		border: 1px solid #d9d9d9;
+		border-radius: 1000px;
+		background-image: url('../../assets/img/lang.svg');
+		background-repeat: no-repeat;
+		background-position: calc(25px) center;
+	}
+}
+
+.header-item {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: #031032;
+}

@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# fonts
+src/assets/Helvetica-Neue-Font
+src/assets/helveticaneue
+src/assets/poppins-v20-latin
+src/assets/roboto-v30-latin.zip

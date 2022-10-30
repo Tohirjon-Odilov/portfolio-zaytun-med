@@ -1,0 +1,82 @@
+.service-section {
+	padding-top: 82px;
+	padding-bottom: 129px;
+	background-image: url('../../assets/img/service-bg.png'),
+		url('../../assets/img/service-bg.png'),
+		url('../../assets/img/service-bg.png');
+	background-position: -150px center, 430px center, 1130px center;
+	background-repeat: no-repeat;
+}
+
+.service__title {
+	margin-bottom: 80px;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 42px;
+	text-transform: uppercase;
+	color: #082269;
+	text-align: center;
+}
+
+.card__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.service__card {
+	text-align: center;
+	min-width: 411px;
+}
+
+.card__body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 110px;
+	padding-top: 75px;
+	max-height: 510px;
+	background: #ffffff;
+	border-radius: 20px;
+	// box-shadow: 0 0 20px 10px rgb(117, 117, 117);
+}
+
+.card__title {
+	margin-bottom: 31px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 37px;
+	color: #082269;
+}
+
+.card__text {
+	margin-bottom: 108px;
+	width: 250px;
+	color: #031032;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.card__text2 {
+	margin-bottom: 65px;
+}
+.card__text3 {
+	margin-bottom: 56px;
+}
+
+.card__btn {
+	padding: 29px 104px;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 18px;
+	color: #031032;
+	line-height: 27px;
+	background: #f3f4f8;
+	border-radius: 100px;
+	&:hover {
+		color: white;
+		background: #008024;
+		border-radius: 100px;
+	}
+}
