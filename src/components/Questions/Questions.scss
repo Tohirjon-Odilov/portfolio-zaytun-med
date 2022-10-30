@@ -1,0 +1,75 @@
+.questions-section {
+	padding-top: 200px;
+	padding-bottom: 133px;
+	background-image: url('../../assets//img/ibn-sino.png'),
+		url('../../assets/img/ollapse.png');
+	background-repeat: no-repeat;
+	background-position: calc(50% - -620px) calc(50% - 20px),
+		calc(50% - -620px) calc(50% - -50px);
+
+	.questions__toggle {
+		margin-right: 126px;
+		.questions__title {
+			margin-bottom: 40px;
+			font-family: 'Helvetica Neue';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 37px;
+			text-transform: capitalize;
+			color: #082269;
+		}
+		ul {
+			li {
+				div {
+					padding: 32px 30px;
+					width: 547px;
+					&:first-child {
+						background: #f5f5f5;
+						border-bottom: 1px solid #d4d4d4;
+					}
+					&:last-child {
+						background: #d9d9d911;
+					}
+				}
+				h4 {
+					font-family: 'Helvetica Neue';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 13px;
+					line-height: 19px;
+					color: #082269;
+				}
+				button {
+					padding: 5px;
+					cursor: pointer;
+					outline: none;
+					border: none;
+					background-color: transparent;
+					font-size: 20px;
+				}
+				.down {
+					font-family: 'Helvetica Neue';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 13px;
+					line-height: 19px;
+					color: #082269;
+				}
+			}
+		}
+	}
+	.questions__info {
+		margin-top: 100px;
+		width: 445px;
+		p {
+			// font-family: 'Helvetica Neue';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 59px;
+			text-align: center;
+			color: #082269;
+		}
+	}
+}

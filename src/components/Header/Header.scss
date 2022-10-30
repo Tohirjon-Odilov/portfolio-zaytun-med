@@ -27,10 +27,18 @@
 	}
 }
 
-.header-item {
+.header-item a {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 22px;
 	color: #031032;
+}
+
+.active {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 22px;
+	text-decoration-line: underline;
+	color: #082269;
 }

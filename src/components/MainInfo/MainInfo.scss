@@ -1,0 +1,70 @@
+.main-info {
+	margin-top: 127px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+
+	.main-info__title {
+		margin-bottom: 12px;
+		font-family: 'Helvetica Neue';
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 37px;
+		text-transform: capitalize;
+		color: #082269;
+	}
+
+	.main-info__text {
+		margin-bottom: 25px;
+		font-family: 'Helvetica Neue';
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		color: #082269;
+		opacity: 0.6;
+	}
+
+	.main-info__arrow {
+		display: flex;
+		gap: 20px;
+	}
+}
+.service-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.service-card {
+	background: #008024;
+	border-radius: 20px;
+	width: 410px;
+	height: 250px;
+}
+
+.card-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.card-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Helvetica Neue';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 27px;
+	text-transform: capitalize;
+	color: #ffffff;
+	margin-top: 0;
+	.card-text2 {
+		text-transform: uppercase;
+		margin-top: 0;
+		// margin-top: 70px;
+	}
+}

@@ -11,10 +11,14 @@ function Header() {
               <img src="/site-logo.svg" alt="site logo" />
             </a>
             <ul className="header__list flex-b">
-              <li className="header__item">Biz haqimizda</li>
-              <li className="header__item">Klinika</li>
-              <li className="header__item">Dorixona</li>
-              <li className="header__item">Kurslar</li>
+              <li className="header__item">
+                <a className="active" href="Biz haqimizda">Biz haqimizda</a></li>
+              <li className="header__item">
+                <a href="Klinika">Klinika</a></li>
+              <li className="header__item">
+                <a href="Dorixona">Dorixona</a></li>
+              <li className="header__item">
+                <a href="Kurslar">Kurslar</a></li>
             </ul>
           </div>
           <select name="lang" id="lang">

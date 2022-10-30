@@ -1,0 +1,54 @@
+.klinik-hero-site {
+	background: url('../../assets/img/hero-bg\ 12.png'),
+		linear-gradient(
+			96.4deg,
+			#c4cde7 -1.09%,
+			#65c0d2 -1.08%,
+			rgba(255, 255, 255, 0) 91.95%
+		);
+	background-repeat: no-repeat;
+	background-position: calc(50% - -240px) bottom, center;
+	// background-size: 1150px 647px, 1870px 713px;
+	border-radius: 20px;
+}
+
+.klinik-hero {
+	padding-top: 89px;
+	padding-bottom: 89px;
+
+	.klinik-hero__left-title {
+		margin-bottom: 19px;
+		width: 50%;
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 60px;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+
+	.klinik-hero__left-text {
+		width: 20%;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 38px;
+		color: rgba(255, 255, 255, 0.7);
+	}
+
+	.klinik-hero__left-link {
+		display: inline-block !important;
+		background: #ffffff;
+		border: 1px solid #ffffff;
+		padding: 24px 36px;
+		margin-top: 150px;
+		backdrop-filter: blur(37px);
+		border-radius: 100px;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 20px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.1px;
+		color: #082269;
+	}
+}
