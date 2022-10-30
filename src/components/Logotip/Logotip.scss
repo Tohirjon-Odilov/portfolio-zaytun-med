@@ -1,0 +1,69 @@
+.logotip {
+	margin-bottom: 50px;
+	.logotip__link {
+		gap: 98px;
+		ul {
+			width: 711px;
+			li a {
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 24px;
+				color: rgba(3, 16, 50, 0.5);
+				opacity: 0.8;
+				&:hover {
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 24px;
+					color: #031032;
+				}
+			}
+		}
+	}
+	.logotip__img {
+		gap: 40px;
+		p {
+			max-width: 230px;
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 19px;
+			color: rgba(3, 16, 50, 0.7);
+		}
+		div {
+			gap: 30px;
+		}
+	}
+	.logotip__contact {
+		display: flex;
+		flex-direction: column;
+		a {
+			padding: 10px 10px 10px 36px;
+			width: 335px;
+			display: flex;
+			align-items: center;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 19px;
+			color: rgba(3, 16, 50, 0.7);
+			&::before {
+				margin-top: 3px;
+				margin-right: 10px;
+			}
+			&:first-child {
+				&::before {
+					content: url('../../assets/img/tel.svg');
+				}
+			}
+			&:nth-child(2) {
+				&::before {
+					content: url('../../assets/img/mail.svg');
+				}
+			}
+			&:last-child {
+				&::before {
+					content: url('../../assets/img/location.svg');
+				}
+			}
+		}
+	}
+}

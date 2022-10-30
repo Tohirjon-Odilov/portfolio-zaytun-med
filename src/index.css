@@ -59,6 +59,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
+	transition: all 0.3s;
 }
 
 body {
@@ -70,7 +71,7 @@ body {
 }
 
 .container {
-	max-width: 1440px;
+	max-width: 1320px;
 	margin: 0 auto;
 	padding: 0 20px;
 }

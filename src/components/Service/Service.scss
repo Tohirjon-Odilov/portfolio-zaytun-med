@@ -4,7 +4,8 @@
 	background-image: url('../../assets/img/service-bg.png'),
 		url('../../assets/img/service-bg.png'),
 		url('../../assets/img/service-bg.png');
-	background-position: -150px center, 430px center, 1130px center;
+	background-position: calc(50% - 400px) center, calc(50% + 100px) center,
+		calc(50% + 500px) center;
 	background-repeat: no-repeat;
 }
 

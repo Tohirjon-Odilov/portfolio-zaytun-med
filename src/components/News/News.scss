@@ -1,0 +1,116 @@
+.news {
+	margin-bottom: 121px;
+	.news__title {
+		margin-bottom: 80px;
+		text-align: center;
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 42px;
+		text-transform: uppercase;
+		color: #082269;
+	}
+	.offer__card-info {
+		margin-bottom: 24px;
+		padding: 59px 61px;
+		max-width: 844px;
+		max-height: 281px;
+		background: linear-gradient(
+			90.05deg,
+			rgba(8, 34, 105, 0.05) 1.32%,
+			rgba(8, 34, 105, 0.05) 58.11%
+		);
+		border-radius: 20px;
+		div {
+			max-width: 351px;
+		}
+	}
+	.offer__card-title {
+		margin-bottom: 13px;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 38px;
+		color: #031032;
+	}
+	.offer__card-text {
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 20px;
+		color: #031032;
+		opacity: 0.6;
+	}
+	.offer__card-img {
+		position: relative;
+		right: -30px;
+		padding-bottom: 50px;
+	}
+	.card-wrapper__item {
+		padding: 38px 62px;
+		min-width: 411px;
+		max-height: 140px;
+		background: linear-gradient(
+			90.05deg,
+			rgba(8, 34, 105, 0.05) 1.32%,
+			rgba(8, 34, 105, 0.05) 58.11%
+		);
+		border-radius: 20px;
+		div {
+			margin-right: 20px;
+			width: 64px;
+			height: 64px;
+			background: #008024;
+			border-radius: 15px;
+		}
+		span {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 36px;
+			color: #031032;
+		}
+	}
+	.offer__right-body {
+		padding: 75px 38px;
+		max-width: 411px;
+		max-height: 300px;
+		background: #008024;
+		border-radius: 20px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		background-image: url(../../assets/img//news-2.png);
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		.flex-b {
+			padding-bottom: 38px;
+			.offer__right__wrapper {
+				margin-right: 20px;
+				width: 64px;
+				height: 64px;
+				background: rgba(255, 255, 255, 0.4);
+				border-radius: 15px;
+			}
+			h4 {
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 30px;
+				color: #ffffff;
+			}
+		}
+		p {
+			width: 190px;
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 20px;
+			color: rgba(255, 255, 255, 0.6);
+		}
+	}
+	.offer__right-footer {
+		padding: 57px 40px 57px 40px;
+		background: #082269;
+		border-radius: 0px 0px 20px 20px;
+		strong {
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 27px;
+			color: #ffffff;
+		}
+	}
+}

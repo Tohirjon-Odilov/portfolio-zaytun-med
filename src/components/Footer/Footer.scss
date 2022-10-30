@@ -1,0 +1,18 @@
+.site-footer {
+	padding: 16px 0px 13px;
+	min-height: 50px;
+	background: #008024;
+	.footer {
+		p {
+			padding-right: 15px;
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 20px;
+			color: #ffffff;
+			opacity: 0.8;
+		}
+		div {
+			gap: 12px;
+		}
+	}
+}
