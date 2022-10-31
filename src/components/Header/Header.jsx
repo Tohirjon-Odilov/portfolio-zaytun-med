@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import "./Header.scss"
 
 function Header() {
@@ -12,9 +13,9 @@ function Header() {
             </a>
             <ul className="header__list flex-b">
               <li className="header__item">
-                <a className="active" href="Biz haqimizda">Biz haqimizda</a></li>
+                <NavLink to={'/about'} href="Biz haqimizda">Biz haqimizda</NavLink></li>
               <li className="header__item">
-                <a href="Klinika">Klinika</a></li>
+              <NavLink to={'/klinika'} href="Biz haqimizda">Kilinika</NavLink></li>
               <li className="header__item">
                 <a href="Dorixona">Dorixona</a></li>
               <li className="header__item">
