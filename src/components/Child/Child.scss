@@ -1,0 +1,65 @@
+.child {
+	margin-bottom: 70px;
+	padding: 90px 82px 85px 95px;
+	min-height: 327px;
+	background: #082269;
+	border-radius: 12px;
+	div {
+		width: 605px;
+	}
+	h4 {
+		margin-bottom: 11px;
+		font-weight: 500;
+		font-size: 48px;
+		line-height: 60px;
+
+		/* identical to box height, or 125% */
+		text-transform: capitalize;
+
+		color: #ffffff;
+	}
+	p {
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 36px;
+
+		/* or 150% */
+
+		color: #ffffff;
+
+		opacity: 0.6;
+	}
+	form {
+		padding: 21px;
+		width: 412px;
+		height: 84px;
+		background: #ffffff;
+		border-radius: 12px;
+		input {
+			border: none;
+			&::placeholder {
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 19px;
+
+				/* identical to box height */
+
+				color: #414141;
+
+				opacity: 0.6;
+			}
+		}
+		box-shadow: gba(255, 255, 255, 0.1);
+		button {
+			padding: 21px 9px;
+			background: #008024;
+			border-radius: 12px;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 20px;
+			letter-spacing: 0.1px;
+			text-transform: uppercase;
+			color: #ffffff;
+		}
+	}
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Child from "../../components/Child/Child"
 import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
 import KursHero from "../../components/KursHero/KursHero"
@@ -9,6 +10,7 @@ function Kurslar() {
     <div>
       <Header />
       <KursHero />
+      <Child />
       <Logotip />
       <Footer />
     </div>
