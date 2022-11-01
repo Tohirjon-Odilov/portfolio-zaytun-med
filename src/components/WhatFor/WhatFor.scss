@@ -1,0 +1,34 @@
+.whatFor-section {
+	margin-top: 50px;
+	margin-bottom: 80px;
+	h3 {
+		margin-bottom: 35px;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 37px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #082269;
+	}
+	.whatFor__cards {
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		.whatFor__card {
+			padding: 0 50px;
+			width: 200px;
+			height: 200px;
+			flex-direction: column;
+			background: #ffffff;
+			box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+			border-radius: 10px;
+			p {
+				font-weight: 700;
+				font-size: 16px;
+				line-height: 19px;
+				text-align: center;
+				text-transform: capitalize;
+				color: #082269;
+			}
+		}
+	}
+}

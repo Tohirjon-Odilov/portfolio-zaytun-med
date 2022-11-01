@@ -1,0 +1,81 @@
+.kursHero-section {
+	margin-top: 60px;
+	margin-bottom: 70px;
+	padding-bottom: 90px;
+	background-image: url('../../assets/img/kurs1.png');
+	background-repeat: no-repeat;
+	background-position: calc(50% - -90px) bottom;
+	z-index: 1;
+	&::after {
+		content: url('../../assets/img/kurs3.png');
+		position: absolute;
+		top: 0;
+		right: 0;
+		opacity: 0.9;
+		z-index: -1;
+	}
+	&::before {
+		content: url('../../assets/img/kurs2.png');
+		position: absolute;
+		top: 180px;
+		right: calc(50% - 670px);
+	}
+	.kursHero {
+		width: 842px;
+	}
+	h3 {
+		margin-bottom: 24px;
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 68px;
+		color: #082269;
+	}
+	h4 {
+		margin-bottom: 24px;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 60px;
+		color: #082269;
+		opacity: 0.8;
+	}
+	p {
+		width: 522px;
+		margin-bottom: 90px;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 36px;
+
+		/* or 150% */
+
+		color: #082269;
+
+		opacity: 0.4;
+	}
+	div {
+		gap: 30px;
+		a {
+			letter-spacing: 0.1px;
+			text-decoration-line: underline;
+			text-transform: uppercase;
+			color: #008024;
+
+			&:first-child {
+				padding: 10px 20px;
+				border: 1px solid #008024;
+				border-radius: 8px;
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 20px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				text-decoration-line: none;
+				letter-spacing: 0.1px;
+				text-transform: uppercase;
+				color: #008024;
+			}
+		}
+	}
+}

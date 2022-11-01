@@ -4,9 +4,12 @@
 	background-image: url('../../assets//img/ibn-sino.png'),
 		url('../../assets/img/ollapse.png');
 	background-repeat: no-repeat;
-	background-position: calc(50% - -620px) calc(50% - 20px),
-		calc(50% - -620px) calc(50% - -50px);
+	background-position: calc(50% - -620px) calc(60px),
+		calc(50% - -620px) calc(150px);
 
+	.questions {
+		align-items: flex-start;
+	}
 	.questions__toggle {
 		margin-right: 126px;
 		.questions__title {

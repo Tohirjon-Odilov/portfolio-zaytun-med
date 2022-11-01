@@ -1,0 +1,122 @@
+.search-section {
+	margin-bottom: 80px;
+	padding-top: 64px;
+	border-top: 1px solid #000;
+	.search-form {
+		margin-bottom: 30px;
+		select {
+			padding: 23px 30px 23px 72px;
+			background-color: #f2f2f2;
+			border-radius: 20px;
+			appearance: none;
+			font-family: 'Helvetica Neue';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 29px;
+			color: #082269;
+			background-image: url('../../assets/img/menu.svg');
+			background-position: calc(25px) center;
+			background-repeat: no-repeat;
+			background-size: 20px 20px;
+			border: none;
+		}
+		input {
+			padding: 26px 30px 29px;
+			max-width: 797px;
+			width: 797px;
+			border: none;
+			background-color: #f2f2f2;
+			border-radius: 20px;
+			&::placeholder {
+				font-family: 'Helvetica Neue';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 29px;
+				color: #414141;
+				opacity: 0.6;
+			}
+		}
+		button {
+			padding: 25px 40px 28px 71px;
+			background: #008024;
+			border-radius: 20px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 20px;
+			border: none;
+			color: white;
+			background-image: url('../../assets/img/savat.svg');
+			background-repeat: no-repeat;
+			background-position: calc(40px) center;
+		}
+	}
+	.search-card {
+		min-height: 440px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #ffe8a8;
+		border: 1px solid #e3edcd;
+		border-radius: 12px;
+		background: url('../../assets/img/rayxon-removebg-preview\ 1.png'),
+			url('../../assets/img/damlama.png'), url('../../assets//img/doira.png'),
+			#ffe8a8;
+		background-repeat: no-repeat;
+		background-position: bottom left, right bottom, right bottom;
+		.search-foiz {
+			margin-bottom: 140px;
+			padding: 17px 10px 35px;
+			font-family: 'Helvetica Neue';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 44px;
+			text-transform: uppercase;
+			color: #ffffff;
+			background-image: url('../../assets/img/foiz.png');
+			background-repeat: no-repeat;
+			span {
+				padding-left: 20px;
+				font-family: 'Helvetica Neue';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 29px;
+				text-transform: capitalize;
+				color: #ffffff;
+			}
+		}
+		.search-box {
+			width: 415px;
+			margin-right: 250px;
+		}
+		h3 {
+			margin-bottom: 50px;
+			font-family: 'Helvetica Neue';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 48px;
+			line-height: 77px;
+			text-align: center;
+			text-transform: capitalize;
+			color: #082269;
+		}
+		a {
+			padding: 10px;
+			background: #d1c132;
+			border-radius: 8px;
+			font-family: 'Helvetica Neue';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 29px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #ffffff;
+		}
+	}
+}
