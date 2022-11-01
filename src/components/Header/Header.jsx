@@ -13,13 +13,17 @@ function Header() {
             </a>
             <ul className="header__list flex-b">
               <li className="header__item">
-                <NavLink to={'/about'} href="Biz haqimizda">Biz haqimizda</NavLink></li>
+                <NavLink to={'/about'} href="Biz haqimizda">Biz haqimizda</NavLink>
+              </li>
               <li className="header__item">
-              <NavLink to={'/klinika'} href="Biz haqimizda">Kilinika</NavLink></li>
+                <NavLink to={'/klinika'} href="Biz haqimizda">Kilinika</NavLink>
+              </li>
               <li className="header__item">
-                <a href="Dorixona">Dorixona</a></li>
+                <NavLink to={'/dorixona'} href="Dorixona">Dorixona</NavLink>
+              </li>
               <li className="header__item">
-                <a href="Kurslar">Kurslar</a></li>
+                <NavLink to={'/kurslar'} href="Kurslar">Kurslar</NavLink>
+              </li>
             </ul>
           </div>
           <select name="lang" id="lang">

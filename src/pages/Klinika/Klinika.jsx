@@ -6,7 +6,7 @@ import Logotip from "../../components/Logotip/Logotip"
 import MainInfo from "../../components/MainInfo/MainInfo"
 import Master from "../../components/Master/Master"
 import Questions from "../../components/Questions/Questions"
-import './Klinika.scss'
+// import './Klinika.scss'
 
 function Klinika() {
   return (
