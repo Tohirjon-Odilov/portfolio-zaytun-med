@@ -4,7 +4,7 @@ import doctor1 from '../../assets/img/doctor.png'
 import doctor2 from '../../assets/img/doctor2.png'
 import doctor3 from '../../assets/img/doctor3.png'
 import doctor4 from '../../assets/img/doctor4.png'
-import doctor5 from '../../assets/img/doctor5.png'
+// import doctor5 from '../../assets/img/doctor5.png'
 
 function Master() {
   return (
@@ -40,11 +40,11 @@ function Master() {
           <strong>Maria Andarolo</strong>
           <span>Dentist</span>
         </div>
-        <div className="card">
+        {/* <div className="card">
           <img src={doctor5} alt="Doctor images" />
           <strong>Maria Andarolo</strong>
           <span>Dentist</span>
-        </div>
+        </div> */}
       </div>
     </div>
   )
