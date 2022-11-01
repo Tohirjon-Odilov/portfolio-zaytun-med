@@ -1,0 +1,53 @@
+.dorixonaCards {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	.dorixonaCard {
+		background: #f8f8f8;
+		border: 1px solid #cccccc;
+		border-radius: 12px;
+		h5 {
+			padding: 13px 0 5px 10px;
+			font-family: 'Poppins';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 19px;
+
+			/* identical to box height */
+			text-transform: uppercase;
+
+			color: #082269;
+		}
+		span {
+			padding: 5px 10px;
+			margin: 13px 0 5px 10px;
+			display: inline-block;
+			font-family: 'Helvetica Neue';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 11px;
+			line-height: 13px;
+			border: 1px solid #0044ff;
+			border-radius: 100px;
+			color: #0044ff;
+		}
+		p {
+			padding: 13px 0 17px 10px;
+			font-family: 'Helvetica Neue';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 20px;
+
+			/* identical to box height */
+			text-transform: uppercase;
+
+			color: #082269;
+			background-image: url('../../assets/img/savat-1.svg');
+			background-repeat: no-repeat;
+			background-position: calc(240px) calc(5px);
+		}
+		margin-bottom: 24px;
+	}
+}
