@@ -13,7 +13,7 @@ function Header() {
             </a>
             <ul className="header__list flex-b">
               <li className="header__item">
-                <NavLink to={'/about'} href="Biz haqimizda">Biz haqimizda</NavLink>
+                <NavLink to={'/'} href="Biz haqimizda">Biz haqimizda</NavLink>
               </li>
               <li className="header__item">
                 <NavLink to={'/klinika'} href="Biz haqimizda">Kilinika</NavLink>
